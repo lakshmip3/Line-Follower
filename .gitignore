@@ -1,0 +1,38 @@
+# MPLAB X build output
+firmware/**/build/
+firmware/**/dist/
+firmware/**/debug/
+*.o
+*.p1
+*.i
+*.d
+*.elf
+*.hex
+*.hxl
+*.cmf
+*.lst
+*.map
+*.sdb
+*.sym
+*.rlf
+*.mum
+*.cof
+*.as
+
+# MPLAB X machine-specific / backups
+firmware/**/nbproject/private/
+firmware/**/nbproject/Makefile-local-*.mk
+*.mc3.bak*
+mcc-manifest-autosave.yml
+
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+_autosave-*
+*.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
